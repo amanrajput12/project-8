@@ -1,0 +1,94 @@
+.main-div{
+    display: flex;
+    flex-direction: column;
+}
+img[src="./images/logo.svg" ]{
+  position: absolute;
+  width: 5rem;
+  margin: 1rem 2rem;
+}
+.nav-items{
+    display: flex;
+    margin-left: 200px;
+    justify-content: space-around;
+    width: 500px;;
+    margin-left: 400px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+}
+.nav-btn{
+    background-color: rgba(150, 70, 154, 0.863);
+    height: 2rem;
+    width: 7rem;
+    margin-left: 4rem;
+    border: none;
+    border-radius: 0.6rem;
+    color: white;
+    font-size: 1rem;
+    }
+.signin-btn{
+    position: absolute;
+   left: 1230px;
+   top: 20px;
+   
+}
+.intro-section{
+    display: flex;
+}
+.left-section{
+    position: relative;
+    top: 150px;
+    left: 6rem;
+}
+.left-section>h1{
+    font-size: 50px;
+    color: #07156fde;
+    
+    
+}
+p{
+    margin-top: 0rem;
+    
+    top:200px;
+    max-width: 300px;
+    color: rgb(102, 113, 113);
+}
+.learn-more-btn{
+    position: absolute;
+    background-color: rgba(150, 70, 154, 0.863);
+    height: 2.4rem;
+    width: 9rem;
+    border: none;
+    border-radius: 0.6rem;
+    color: white;
+    font-size: 1rem;
+    
+}
+.vector-img{
+    position: absolute;
+    top: 23rem; 
+    left: 36rem;
+}
+.vector-dot{
+    position: absolute;
+    left: 39.5rem;
+    top: 22.6rem;
+}
+img[src="./images/intro-img.svg" ]{
+    position: relative;
+    left: 360px;
+    width: 30rem;
+}
+img[src="./images/backcover.svg" ]{
+    z-index: -1;
+    position: absolute;
+    right: -7rem;
+    top: 0rem;
+    height: 37rem;
+    width: 52rem;
+}
