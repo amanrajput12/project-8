@@ -1,0 +1,125 @@
+body {
+  font-family: "Roboto";
+}
+
+.main-div {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+img[src="./images/logo.svg"] {
+  width: 5rem;
+  margin: 0.45rem 2rem;
+  cursor: pointer;
+}
+.nav-items:nth-child(2) {
+  margin-left: auto;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  gap: 2em;
+  color: #3e4794;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.nav-btn {
+  background: linear-gradient(to right, #965cf2, #ff8adc);
+  padding: 0.25rem 1.25rem;
+  border: none;
+  border-radius: 1rem;
+  color: white;
+  font-size: 0.85rem;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.intro-section {
+  display: flex;
+}
+.left-section {
+  position: relative;
+  top: 150px;
+  left: 6rem;
+}
+.left-section > h1 {
+  font-size: 50px;
+  color: #07156fde;
+}
+p {
+  margin-top: 0rem;
+  top: 200px;
+  max-width: 300px;
+  color: rgb(102, 113, 113);
+}
+.learn-more-btn {
+  position: absolute;
+  background: linear-gradient(to right, #965cf2, #ff8adc);
+  height: 2.4rem;
+  width: 9rem;
+  border: none;
+  font-weight: 600;
+  border-radius: 1rem;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.vector-img {
+  position: absolute;
+  top: 23rem;
+  left: 36rem;
+}
+.vector-dot {
+  position: absolute;
+  left: 39.5rem;
+  top: 22.6rem;
+}
+img[src="./images/intro-img.svg"] {
+  position: absolute;
+  left: 25rem;
+  width: 30rem;
+}
+img[src="./images/backcover.svg"] {
+  z-index: -1;
+  position: fixed;
+  float: right;
+  right: -8rem;
+  top: 0rem;
+  height: 50rem;
+  width: 52rem;
+}
+
+
+@media only  screen and (max-width: 700px) {
+  body{
+    background-image: url(images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+    }
+
+    .nav-items{
+        display: none;
+    }
+
+    .hero-image{
+        display: none;    
+    }
+    .backcover-image{
+        display: none;
+    }
+    
+    .vector-img{
+      display: none;
+    }
+    .vector-dot{
+      display: none;
+    }
+
+}
